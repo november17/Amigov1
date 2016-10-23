@@ -6,8 +6,8 @@ These are coding exercises I completed while I was teaching myself how to integr
 
 ##There are two scripts available
 
-* timeline.php - a php script that obtains the most recent 100 tweets of the user's home timeline and displays them in text format.
-* favorator.php - a php script that favorites the 10 most recent tweets in the user's home timeline. 
+* **timeline.php** - a php script that obtains the most recent 100 tweets of the user's home timeline and displays them in text format.
+* **favorator.php** - a php script that favorites the 10 most recent tweets in the user's home timeline. 
 
 ###Requirements:
 + PHP 5.4
