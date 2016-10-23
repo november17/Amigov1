@@ -1,4 +1,4 @@
-First attempt at PHP coding a functional Twitter apps guided and inspired by the following tutorial; Build Your First Twitter App Using PHP in 8 Easy Steps https://iag.me/socialmedia/build-your-first-twitter-app-using-php-in-8-easy-steps/
+First attempt at PHP coding functional Twitter apps guided and inspired by the following tutorial; Build Your First Twitter App Using PHP in 8 Easy Steps https://iag.me/socialmedia/build-your-first-twitter-app-using-php-in-8-easy-steps/
 
 These are coding exercises I completed while I was teaching myself how to integrate PHP script with the Twitter API.
 
