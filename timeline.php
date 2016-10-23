@@ -1,7 +1,7 @@
 <?php
 require_once('TwitterAPIExchange.php');
 
-/** Set access tokens here - insert within parenthesis - see: https://dev.twitter.com/apps/ **/
+/** Set access tokens here - insert within parenthesis - **/
 $settings = array(
     'oauth_access_token' => "insert your access token here within the parenthesis",
     'oauth_access_token_secret' => "insert your access token secret here within the parenthesis",
@@ -10,7 +10,9 @@ $settings = array(
 );
 $url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
 $requestMethod = "GET";
+/** replace null in the line below with the username of the timeline you want to fetch - do not include an @ and do not delete parenthesis **/
 if (isset($_GET['name']))  {$user = $_GET['name'];}  else {$user  = "null";}
+/** the count value of 100 can be replaced with a larger or smaller number **/
 if (isset($_GET['count'])) {$user = $_GET['count'];} else {$count = 100;}
 $getfield = "?screen_name=$user&count=$count";
 $twitter = new TwitterAPIExchange($settings);
